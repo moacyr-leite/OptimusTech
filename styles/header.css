@@ -1,0 +1,41 @@
+.cabecalho {
+  display: flex;
+  width: 100%;
+  padding: 1.13rem 0;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  flex-direction: row;
+}
+.cabecalho__logo {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.logo__imagem {
+  margin: 0.5rem;
+}
+.cabecalho__navegacao {
+}
+.navegacao__link {
+  color: var(--cinza);
+  font-size: 1rem;
+  text-decoration: none;
+  margin: 2rem;
+}
+.usuario__entrar,
+.usuario__cadastrar {
+  font-size: 1rem;
+  text-decoration: none;
+  margin: 0.75rem;
+}
+.usuario__entrar {
+  color: var(--cinza);
+}
+.usuario__cadastrar {
+  padding: 0.63rem 1.13rem;
+  border: 0.06rem solid var(--vermelho);
+  border-radius: 0.5rem;
+  color: var(--branco);
+  background-color: var(--vermelho);
+}

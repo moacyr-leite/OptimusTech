@@ -1,0 +1,48 @@
+.rodape {
+  color: var(--cinza-rodape);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem; /* 150% */
+  text-align: center;
+  padding: 6rem 19rem;
+}
+.formulario {
+  padding: 0 2rem;
+  margin-bottom: 2rem;
+}
+.formulario__titulo {
+  color: var(--preto);
+  font-size: 2.25rem;
+  font-weight: 600;
+  line-height: 2.75rem; /* 122.222% */
+  margin-bottom: 1.25rem;
+}
+.formulario__paragrafo {
+  color: var(--cinza);
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.875rem; /* 150% */
+  margin-bottom: 2.5rem;
+}
+.formulario__email {
+  margin: 1rem;
+  width: 20rem;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #d0d5dd;
+  background: var(--branco);
+  color: var(--cinza);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem; /* 150% */
+}
+.formulario__botao {
+  padding: 0.75rem 1.25rem;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem; /* 150% */
+  color: var(--branco);
+  border-radius: 0.5rem;
+  border: 1px solid var(--vermelho);
+  background: var(--vermelho);
+}

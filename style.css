@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+@import url(styles/header.css);
+@import url(styles/banner.css);
+@import url(styles/vagas.css);
+@import url(styles/depoimentos.css);
+@import url(styles/rodape.css);
+:root {
+  --preto: #101828;
+  --cinza-rodape: #98a2b3;
+  --cinza-claro: #eaecf0;
+  --cinza: #667085;
+  --cinza-escuro: #3a404e;
+  --branco: #ffffff;
+  --vermelho: #8e2424;
+}
+
+body {
+  color: var(--cinza-escuro);
+  font-family: "Inter", sans-serif;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem; /* 133.333% */
+}

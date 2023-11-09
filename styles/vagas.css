@@ -1,0 +1,88 @@
+.vagas {
+  margin: 6rem 5rem;
+  text-align: center;
+}
+.vagas__subtitulo {
+  color: var(--vermelho);
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+.vagas__titulo {
+  color: var(--preto);
+  margin: 1.25rem;
+  font-size: 2.25rem;
+  font-weight: 600;
+}
+.vagas__texto {
+  color: var(--cinza);
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+.vagas__imagem {
+  margin: 4rem 1rem;
+}
+/*
+.vagas__lista {
+  display: flex;
+  flex-direction: column;
+  padding: 0 14rem;
+  margin: 0 2rem;
+  align-items: center;
+  justify-content: space-around;
+  text-align: start;
+}
+.vagas__item {
+  width: 48rem;
+}
+.vagas__area {
+  margin-bottom: 2rem;
+}
+.vagas__post {
+  display: flex;
+  text-align: start;
+  width: 45rem;
+  margin: 1.5rem 1.5rem 1.75rem 1.5rem;
+}
+.vagas__nome {
+}
+.vagas__periodo {
+}
+.vagas__salario {
+}
+*/
+.funcoes {
+  text-align: start;
+  margin: 0 5rem;
+  padding: 0 16rem;
+}
+.funcoes__titulo {
+  color: var(--preto);
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+.funcoes__post {
+  border-radius: 1rem;
+  border: 1px solid var(--cinza-claro);
+  background: var(--branco);
+  padding: 1.5rem;
+  margin: 1.5rem;
+}
+.funcoes__nome {
+  color: var(--preto);
+
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+.funcoes__info {
+  display: flex;
+  flex-direction: row;
+  column-gap: 1.5rem;
+}
+.funcoes__horario,
+.funcoes__salario {
+  color: var(--cinza);
+  font-size: 1rem;
+  font-weight: 500;
+}

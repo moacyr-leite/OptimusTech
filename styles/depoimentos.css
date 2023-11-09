@@ -1,0 +1,30 @@
+.depoimentos {
+  text-align: center;
+
+  padding: 0 5rem 6rem 5rem;
+}
+.depoimento {
+  margin: 0 2rem;
+  padding: 4rem;
+}
+.depoimento__texto {
+}
+.depoimento__subtitulo {
+  color: var(--vermelho);
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.depoimento__titulo {
+  color: var(--preto);
+  font-size: 2.25rem;
+  font-weight: 500;
+  line-height: 2.75rem; /* 122.222% */
+  margin-bottom: 2rem;
+}
+.depoimento__imagem {
+  margin-bottom: 1rem;
+}
+.depoimento__nome {
+  margin-bottom: 0.25rem;
+}
